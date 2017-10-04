@@ -1,0 +1,28 @@
+{#
+/**
+ * @file
+ * Theme override for a 'form' element.
+ *
+ * Available variables
+ * - attributes: A list of HTML attributes for the wrapper element.
+ * - children: The child elements of the form.
+ *
+ * @see template_preprocess_form()
+ */
+#}
+<a name="contact"></a>
+  <form{{ attributes }}>
+    <div class="row top-3x">
+      <span class="name">
+        {{ form.name }}
+      </span>
+      <span class="mail">
+        {{ form.mail }}
+      </span>
+      {{ form.subject }}
+      {{ form.message }}
+      {{ form.actions }}
+    </div>
+    {# Renders the rest of the form #}
+    {{ form|without('mail','message','actions', 'subject', 'name','copy') }}
+  </form>

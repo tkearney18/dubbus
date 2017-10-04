@@ -1,0 +1,11 @@
+global:
+  version: VERSION
+  css:
+    base:
+      css/dubbus.css: {}
+  js:
+    js/dubbus.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/modernizr
