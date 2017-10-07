@@ -1,12 +1,12 @@
 @font-face {
 	font-family: 'drawic';
-	src:url('../fonts/drawic.eot');
-	src:url('../fonts/drawic.eot') format('embedded-opentype'),
-		url('../fonts/drawic.woff') format('woff'),
-		url('../fonts/drawic.ttf') format('truetype'),
-		url('../fonts/drawic.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
+src:url('../fonts/drawic.eot');
+src:url('../fonts/drawic.eot') format('embedded-opentype'),
+	    url('../fonts/drawic.woff') format('woff'),
+	    url('../fonts/drawic.ttf') format('truetype'),
+	    url('../fonts/drawic.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 .drawic {
@@ -18,64 +18,65 @@
 	text-transform: none;
 	line-height: 1;
 
-	/* Better Font Rendering =========== */
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+       /* Better Font Rendering =========== */
+       -webkit-font-smoothing: antialiased;
+       -moz-osx-font-smoothing: grayscale;
 }
 
 .drawic-email:before {
 	font-size: 55px;
-	content: "\e60f";
+content: "\e60f";
 }
 .drawic-facebook:before {
 	font-size: 55px;
-	content: "\e610";
+content: "\e610";
 }
 .drawic-instagram:before {
 	font-size: 55px;
-	content: "\e620";
+content: "\e620";
 }
 .drawic-twitter:before {
 	font-size: 55px;
-	content: "\e637";
+content: "\e637";
 }
 
 .top-bar-left li{
-    display: inline-block;
+display: inline-block;
 }
 
 #home-first-parallax {
-    text-align: center;
-    background-image: url('../images/bus-with-mountains-lrg.jpg');
+	text-align: left;
+	background-image: url('../images/bus-with-mountains-lrg.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-    height: 600px;
+height: 600px;
 	padding-top: 75px;
 }
 
 #home-first-parallax .header{
 	width: 200px;
-	margin: auto;
-	position: relative;
 	background-color: #CAEBF2;
 }
 
 #home-first-parallax .subheader{
-	width: 600px;
-	margin: auto;
-	position: relative;
-	background-color: #CAEBF2;
+	float: left;
+	margin-left: 2rem;
 }
 
+#home-first-parallax .subheader .inside{
+width: 400px;
+position: relative;
+	  background-color: rgba(239, 239, 239, 0.6);
+}
 #home-second-parallax {
-    text-align: center;
-    background-image: url('../images/second-lrg.jpg');
+	text-align: center;
+	background-image: url('../images/second-lrg.jpg');
 	background-repeat: no-repeat;
 	background-size: 100% auto;
-    height: 400px;
+height: 400px;
 }
 .full-width{
-    max-width: 100% !important;
+	max-width: 100% !important;
 }
 
 .top-1x {
@@ -110,37 +111,37 @@
 }
 
 .top-bar {
-    height: 75px;
+height: 75px;
 	z-index: 100;
 }
 .top-bar .top-bar-right {
-    height: 100%;
+height: 100%;
 }
 .top-bar .top-bar-right li {
-    display: inline-block;
-    color: #fff;
-    height: 100%;
+display: inline-block;
+color: #fff;
+height: 100%;
 }
 .top-bar .top-bar-right ul {
-    height: 100%;
-    margin-right: 2rem;
+height: 100%;
+	margin-right: 2rem;
 }
 
 .top-bar .top-bar-left  h2{
-    margin-left: 2rem;
+	margin-left: 2rem;
 }
 
 .top-bar .top-bar-right li :hover{
-    color: #fff;
-    background-color: #286DA8;
-    transition: background-color 0.8s ease;
+color: #fff;
+       background-color: #286DA8;
+transition: background-color 0.8s ease;
 }
 
 .top-bar .top-bar-right li a{
-    height: 100%;
-    display: flex;
-    align-items: center;
-    padding: 0 5px;
+height: 100%;
+display: flex;
+	 align-items: center;
+padding: 0 5px;
 }
 
 .block-region {
@@ -148,13 +149,13 @@
 }
 
 .top-bar {
-	color: #A9A9A9;
-	background-color: #EFEFEF;
-	position: fixed;
-	transition: height 0.5s ease;
+color: #A9A9A9;
+       background-color: #EFEFEF;
+position: fixed;
+transition: height 0.5s ease;
 }
 .top-bar a {
-	color: #A9A9A9;
+color: #A9A9A9;
 }
 
 .prices .listing{
@@ -173,34 +174,51 @@
 
 
 .prices button {
-	color: #A9A9A9;
-	background-color: #CAEBF2;
+color: #A9A9A9;
+       background-color: #CAEBF2;
 }
 
 .prices button :hover {
-	color: #A9A9A9;
-	background-color: #286DA8;
+color: #A9A9A9;
+       background-color: #286DA8;
 }
 
 p {
-    font-family: 'Cabin Condensed';
-    font-style: normal;
-    font-weight: 600;
+	font-family: 'Cabin Condensed';
+	font-style: normal;
+	font-weight: 600;
 }
 .logo{
-    font-family: 'Kaushan Script';
-    font-style: normal;
-    font-weight: normal;
-    color: #FF3B3f;
+	font-family: 'Kaushan Script';
+	font-style: normal;
+	font-weight: normal;
+color: #FF3B3f;
+       font-size: 3rem;
 }
 
 .smaller{
-    height: 50px;
-    transition: height 0.5s ease;
+height: 50px;
+transition: height 0.5s ease;
 }
 
+.contact-info h3 {
+	text-align: center;
+}
 .contact-info li {
 	list-style: none;
-    text-align: center;
-    font-size: 2rem;
+	text-align: center;
+	font-size: 1.5rem;
+	font-family: 'Cabin Condensed';
+	font-style: normal;
+	font-weight: 600;
+}
+.placeholder{
+content: url('../images/placeholder.png');
+height: 200px;
+width: 200px;
+margin: auto;
+}
+.region-highlighted {
+margin-top: 5rem;
+margin-bottom: 0;
 }

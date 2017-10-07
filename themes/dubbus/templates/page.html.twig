@@ -95,11 +95,7 @@
       </header>
 
       {% if page.header %}
-        <div class="row">
-          <div class="large-12 columns">
-            {{ page.header }}
-          </div>
-        </div>
+          {{ page.header }}
       {% endif %}
 
       <div class="row">
@@ -173,9 +169,9 @@
         {% endif %}
       </div>
       {% if page.bottom_left and page.bottom_right %}
-        <div class="row">
+        <div class="row top-3x">
           {% if page.bottom_left %}
-            <div id="bottom_left" class="large-6 columns">
+            <div id="bottom_left" class="large-6 small-6 columns">
               {{ page.bottom_left }}
             </div>
             {% endif %}
@@ -189,7 +185,7 @@
       {% if page.footer %}
         <footer class="row">
           {% if page.footer %}
-            <div id="footer" class="large-12 columns">
+            <div id="footer" class="large-12 small-12 top-3x columns">
               {{ page.footer }}
             </div>
           {% endif %}
