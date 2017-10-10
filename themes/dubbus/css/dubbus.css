@@ -195,6 +195,10 @@ p {
 color: #FF3B3f;
        font-size: 3rem;
 }
+.smaller .logo {
+	font-size: 2rem;
+    transition: font 0.5s ease;	
+}
 
 .smaller{
 height: 50px;
