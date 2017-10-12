@@ -40,6 +40,10 @@ content: "\e620";
 content: "\e637";
 }
 
+.drawic-menu:before {
+font-size:32px;
+content: "\e623";
+}
 .top-bar-left li{
 display: inline-block;
 }
@@ -225,4 +229,8 @@ margin: auto;
 .region-highlighted {
 margin-top: 5rem;
 margin-bottom: 0;
+}
+
+.menu-icon::after {
+content: url('../fonts/menu.svg');
 }
