@@ -15,3 +15,19 @@
   };
 
 })(jQuery, Drupal);
+(function ($) {
+  $(document).ready(function () {
+    $('#hamburger').click(function () {
+      if ($('#mobile-links').hasClass('hidden')) {
+        $('#mobile-links').addClass('active');
+        $('#mobile-links').removeClass('hidden');
+      } else {
+        $('#mobile-links').addClass('hidden');
+        $('#mobile-links').removeClass('active');
+      }
+    });
+    $('.mobile-link').click(function (){
+	console.log(this);
+    });
+  });
+})(jQuery);
